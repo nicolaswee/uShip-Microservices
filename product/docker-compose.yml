@@ -1,0 +1,13 @@
+version: "3"
+services:
+    product:
+        build: .
+        ports:
+            - "5001:5001"
+    redis:
+        image: "redis:alpine"
+        restart: always
+        expose:
+            - '6379'
+        ports:
+            - '6379:6379'

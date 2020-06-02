@@ -1,0 +1,9 @@
+pymongo==3.9.0
+graphene==2.1.8
+Flask_Cors==3.0.8
+Flask==1.0.2
+Flask_GraphQL==2.0.1
+mongoengine==0.19.1
+graphene_mongo==0.2.12
+python-dotenv==0.12.0
+dnspython

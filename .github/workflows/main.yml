@@ -1,0 +1,120 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Testing for UShip
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      working-directory: ./cart
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Test Cart MS
+      working-directory: ./cart
+      run: |
+        pip install pytest
+        pytest
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      working-directory: ./news
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Test News MS
+      working-directory: ./news
+      run: |
+        pip install pytest
+        pytest
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      working-directory: ./product
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Test Product MS
+      working-directory: ./product
+      run: |
+        pip install pytest
+        pytest
+  job4:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      working-directory: ./recommendation
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Test Recommendation MS
+      working-directory: ./recommendation
+      run: |
+        pip install pytest
+        pytest
+  job5:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      working-directory: ./weather
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Test Weather MS
+      working-directory: ./weather
+      run: |
+        pip install pytest
+        pytest
+  job6:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      working-directory: ./user
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Test User MS
+      working-directory: ./user
+      run: |
+        pip install pytest
+        pytest
