@@ -1,8 +1,10 @@
 # uShip - Microservices
-![Testing for UShip](https://github.com/nicolaswee/uShip-Microservices/workflows/Testing%20for%20UShip/badge.svg) [![GitHub contributors](https://img.shields.io/github/contributors/nicolaswee/uShip-Microservices.svg)](https://github.com/nicolaswee/uShip-Microservices/graphs/contributors) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/nicolaswee/uShip-Microservices.svg)](https://GitHub.com/nicolaswee/uShip-Microservices/pull/) [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/nicolaswee/uShip-Microservices.svg)](https://GitHub.com/nicolaswee/uShip-Microservices/pull/) [![GitHub issues](https://img.shields.io/github/issues/nicolaswee/uShip-Microservices.svg)](https://GitHub.com/nicolaswee/uShip-Microservices/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/nicolaswee/uShip-Microservices.svg)](https://GitHub.com/nicolaswee/uShip-Microservices/issues?q=is%3Aissue+is%3Aclosed)
+![Testing for UShip](https://github.com/nicolaswee/uShip-Microservices/workflows/Testing%20for%20UShip/badge.svg) [![GitHub contributors](https://img.shields.io/github/contributors/nicolaswee/uShip-Microservices.svg)](https://github.com/nicolaswee/ESD-Backend/graphs/contributors) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/nicolaswee/uShip-Microservices.svg)](https://GitHub.com/nicolaswee/uShip-Microservices/pull/) [![GitHub issues](https://img.shields.io/github/issues/nicolaswee/uShip-Microservices.svg)](https://GitHub.com/nicolaswee/uShip-Microservices/issues/) 
 
 ### Details
-> UShip allows for customers to view and purchase products like an online e-store. It also allows suppliers to upload their products for sale
+>Due to removal of credentials, some CI/CD testcases will fail but by adding in proper credentials. The testcases will work as intended.
+
+>UShip allows for customers to view and purchase products like an online e-store. It also allows suppliers to upload their products for sale.
 
 >UData is a dashboard for admins to keep track of the overall profits of UShip, product approval statuses, contacts of suppliers, etc.
 
