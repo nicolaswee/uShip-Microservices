@@ -1,5 +1,5 @@
 pymongo==3.9.0
-Flask_Cors==3.0.8
+Flask_Cors==3.0.9
 Flask==1.0.2
 PyJWT==1.7.1
 python-dotenv==0.12.0
