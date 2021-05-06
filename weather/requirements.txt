@@ -2,7 +2,7 @@ Flask==1.0.2
 darkskylib==0.3.91
 pika==1.1.0
 pymongo==3.9.0
-Flask_Cors==3.0.8
+Flask_Cors==3.0.9
 darksky==0.3
 python-dotenv==0.12.0
 redis==3.4.1
